@@ -1,0 +1,9 @@
+{
+  "name": "design-showcase",
+  "version": "1.0.0",
+  "description": "A design showcase",
+  "main": "index.js",
+  "author": "kevinbarasa barasakevin1@gmail.com",
+  "license": "MIT",
+  "private": false
+}

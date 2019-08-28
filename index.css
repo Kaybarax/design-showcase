@@ -1,0 +1,215 @@
+
+body {
+    font-family: 'Arial', serif;
+    line-height: 1.5em;
+}
+
+.rowContainer {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 2px;
+    width: 100%;
+}
+
+.fluidRowContainer {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 2px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.columnContainer {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 2px;
+    width: 100%;
+}
+
+.fluidColumnContainer {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 2px;
+    /*width: 100%;*/
+    justify-content: center;
+    align-items: center;
+}
+
+.containerChildFullWidth {
+    flex-grow: 1;
+    flex-basis: 100%;
+    min-width: 100%;
+}
+
+.containerChildFullWidthNoGrow {
+    flex-grow: 0;
+    flex-basis: 100%;
+    min-width: 100%;
+}
+
+.containerChildHalfWidth {
+    flex-grow: 1;
+    flex-basis: 50%;
+    min-width: 50%;
+}
+
+.containerChildHalfWidthNoGrow {
+    flex-grow: 0;
+    flex-basis: 50%;
+    min-width: 50%;
+}
+
+.containerChildOneFifthWidth {
+    flex-grow: 1;
+    flex-basis: 20%;
+    min-width: 20%;
+}
+
+.containerChildOneFifthWidthNoGrow {
+    flex-grow: 0;
+    flex-basis: 20%;
+    min-width: 20%;
+}
+
+.containerChildFourFifthWidth {
+    flex-grow: 1;
+    flex-basis: 80%;
+    min-width: 80%;
+}
+
+.containerChildFourFifthWidthNoGrow {
+    flex-grow: 0;
+    flex-basis: 80%;
+    min-width: 80%;
+}
+
+.category-title {
+    margin-left: 10%;
+    font-family: 'Arial', serif;
+    color: #aaa;
+    font-weight: bold;
+    font-size: 12px
+}
+
+.menu-item-1 {
+    font-size: 15px;
+    border-radius: 35%;
+    padding: 4px;
+}
+
+.unselected-menu-item-2 {
+    color: #aaaaaa;
+}
+
+.top-heading-one {
+    color: royalblue;
+}
+
+.top-subheading {
+    color: #aaaaaa;
+}
+
+.selected-menu-item-1 {
+    background-color: royalblue;
+    box-shadow: royalblue;
+    color: white;
+}
+
+.menu-item-badge {
+    background-color: lightblue;
+    color: royalblue;
+}
+
+.my-fab-plus {
+    color: white;
+    background-color: cornflowerblue;
+    box-shadow: 1px 3px 10px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 100%;
+    font-size: 24px;
+    font-weight: lighter;
+    padding: 15px;
+}
+
+.my-green-fab {
+    color: green;
+    background-color: lightgreen;
+    box-shadow: 1px 3px 10px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 25%;
+    font-size: 24px;
+    font-weight: lighter;
+    padding: 15px;
+}
+
+.my-purple-fab {
+    color: purple;
+    background-color: lightpink;
+    box-shadow: 1px 3px 10px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 25%;
+    font-size: 24px;
+    font-weight: lighter;
+    padding: 15px;
+}
+
+.my-red-fab {
+    color: red;
+    background-color: lightpink;
+    box-shadow: 1px 3px 10px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 25%;
+    font-size: 24px;
+    font-weight: lighter;
+    padding: 15px;
+}
+
+.my-orange-fab {
+    color: orange;
+    background-color: lightpink;
+    box-shadow: 1px 3px 10px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 25%;
+    font-size: 24px;
+    font-weight: lighter;
+    padding: 15px;
+}
+
+.my-blue-fab {
+    color: blue;
+    background-color: lightblue;
+    box-shadow: 1px 3px 10px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 25%;
+    font-size: 24px;
+    font-weight: lighter;
+    padding: 15px;
+}
+
+.my-grey-fab {
+    color: gray;
+    background-color: lightgrey;
+    box-shadow: 1px 3px 10px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 25%;
+    font-size: 24px;
+    font-weight: lighter;
+    padding: 15px;
+}
+
+.list-item-text {
+    font-size: 20px;
+}
+
+.list-item-tag {
+    color: darkgray;
+    font-size: 16px;
+    border-radius: 30px;
+    background-color: lightgrey;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
